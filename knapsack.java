@@ -1,0 +1,93 @@
+import java.io.File;
+import java.util.Scanner;
+
+public class knapsack{
+
+    public static int doesItInclude(String[] arr, String word){
+
+        for(int x = 0; x < arr.length; x++){
+            if(arr[x].matches(word)){
+                return x;
+            }
+        }
+
+        return -1;
+    }
+    public static void main(String args[]){
+        RandomKnapsack randomKnapsack = new RandomKnapsack();
+        String[] initialStrings = null;
+
+        Scanner sc = null;
+
+
+        // argument flags
+        int inputPosition = doesItInclude(args, "-i") + 1;
+        int outputPosition = doesItInclude(args, "-o") + 1;
+
+        if(inputPosition >= args.length || outputPosition >= args.length || inputPosition == -1 || outputPosition == -1){
+            System.out.println("There is a missing parameter");
+            return;
+        }
+        
+        // initial data file
+        try{
+            File file = new File(args[inputPosition]); 
+            sc = new Scanner(file); 
+        } catch( Exception e){
+            System.out.println("Error found");
+        }
+        
+
+        // 2d arrays to store values 
+        int[][] easyMatrix = new int[10][2];
+        int[][] mediumMatrix = new int[15][2];
+        int[][] largeMatrix = new int[20][2];
+
+         // split initial file into array of strings
+         for(int x = 0; x < 1; x++){
+            initialStrings = sc.nextLine().split(" ");
+        }
+        // split strings into the proper array
+        for(int x = 0; x < 10; x++){
+            String[] tempWeight = initialStrings[0].split(",");
+            String[] tempValue = initialStrings[1].split(",");
+            easyMatrix[x][0] = Integer.parseInt(tempWeight[x]);
+            easyMatrix[x][1] = Integer.parseInt(tempValue[x]);
+        }
+
+        for(int x = 0; x < 15; x++){
+            String[] tempWeight = initialStrings[2].split(",");
+            String[] tempValue = initialStrings[3].split(",");
+            mediumMatrix[x][0] = Integer.parseInt(tempWeight[x]);
+            mediumMatrix[x][1] = Integer.parseInt(tempValue[x]);
+        }
+
+        for(int x = 0; x < 20; x++){
+            String[] tempWeight = initialStrings[4].split(",");
+            String[] tempValue = initialStrings[5].split(",");
+            largeMatrix[x][0] = Integer.parseInt(tempWeight[x]);
+            largeMatrix[x][1] = Integer.parseInt(tempValue[x]);
+        }
+
+        int[] tempWeight = new int[10];
+        int[] tempValue = new int[10];
+
+        for(int i = 0; i < 10; i++){
+            tempWeight[i] = easyMatrix[i][0];
+            tempValue[i] = easyMatrix[i][1];
+        }
+        
+        randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+
+        tempWeight = new int[15];
+        tempValue = new int[15];
+
+        for(int i = 0; i < 15; i++){
+            tempWeight[i] = mediumMatrix[i][0];
+            tempValue[i] = mediumMatrix[i][1];
+        }
+
+        randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+
+    }
+}
