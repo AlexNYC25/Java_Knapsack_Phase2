@@ -1,5 +1,7 @@
 import java.io.File;
 import java.util.Scanner;
+import java.util.Vector;
+import java.io.FileWriter;
 
 public class knapsack{
 
@@ -14,7 +16,10 @@ public class knapsack{
         return -1;
     }
     public static void main(String args[]){
-        RandomKnapsack randomKnapsack = new RandomKnapsack();
+
+        RandomKnapsack randomKnapsack = new RandomKnapsack(67,79,127);
+        BruteKnapsack bruteKnapsack = new BruteKnapsack();
+
         String[] initialStrings = null;
 
         Scanner sc = null;
@@ -69,25 +74,122 @@ public class knapsack{
             largeMatrix[x][1] = Integer.parseInt(tempValue[x]);
         }
 
-        int[] tempWeight = new int[10];
-        int[] tempValue = new int[10];
+        // execution and output
+        try{
 
-        for(int i = 0; i < 10; i++){
-            tempWeight[i] = easyMatrix[i][0];
-            tempValue[i] = easyMatrix[i][1];
+            File outPutFile = null;
+            FileWriter myFileWriter = null;
+
+            // if input file is passed but no output file
+            if(inputPosition >= 0 && inputPosition < args.length && outputPosition == -1 ){
+                // create file 
+                
+                System.out.println("Missing ouutput paramaeter");
+                outPutFile = new File("output.txt");
+                if(outPutFile.createNewFile()){
+                    System.out.println("Output file created");
+
+                } else {
+                    System.out.println("Output file has been overwritten");
+                }
+
+                // create fileWriter object to write output
+                myFileWriter = new FileWriter("output.txt");
+                
+            }
+            else{
+                outPutFile = new File(args[outputPosition]);
+                if(outPutFile.createNewFile()){
+                    System.out.println("Output file created");
+
+                } else {
+                    System.out.println("Output file has been overwritten");
+                }
+                myFileWriter = new FileWriter(args[outputPosition]);
+                
+            }
+            
+            // 10 items
+
+            myFileWriter.write("***** Start of small knapsack problem ***** \n\n");
+
+            int[] tempWeight = new int[10];
+            int[] tempValue = new int[10];
+
+            for(int i = 0; i < 10; i++){
+                tempWeight[i] = easyMatrix[i][0];
+                tempValue[i] = easyMatrix[i][1];
+            }
+            for(int x = 0; x <= 10; x++){
+               bruteKnapsack.createCombinations(bruteKnapsack.smallNums, 10, x); 
+            }
+            
+            myFileWriter.write("The Brute force solution: \n");
+            bruteKnapsack.bestCombination(easyMatrix, 30, myFileWriter);
+            myFileWriter.write("\n");
+            bruteKnapsack.listOfCombinations = new Vector<int[]>();
+
+            //randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+            randomKnapsack.evaluateRandomPopulations_output(tempWeight, tempValue, 30, myFileWriter);
+            myFileWriter.write("\n");
+
+            // 15 items
+            myFileWriter.write("***** Start of medium knapsack problem ***** \n\n");
+
+            tempWeight = new int[15];
+            tempValue = new int[15];
+
+            for(int x = 0; x <= 15; x++){
+                bruteKnapsack.createCombinations(bruteKnapsack.mediumNums, 15, x); 
+             }
+            
+             myFileWriter.write("The Brute force solution: \n");
+             bruteKnapsack.bestCombination(mediumMatrix, 30, myFileWriter);
+             myFileWriter.write("\n");
+             bruteKnapsack.listOfCombinations = new Vector<int[]>();
+
+            for(int i = 0; i < 15; i++){
+                tempWeight[i] = mediumMatrix[i][0];
+                tempValue[i] = mediumMatrix[i][1];
+            }
+
+            //randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+            randomKnapsack.evaluateRandomPopulations_output(tempWeight, tempValue, 30, myFileWriter);
+            myFileWriter.write("\n");
+
+            // 20 items 
+            myFileWriter.write("***** Start of large knapsack problem ***** \n\n");
+
+            tempWeight = new int[20];
+            tempValue = new int[20];
+
+            for(int x = 0; x <= 20; x++){
+                bruteKnapsack.createCombinations(bruteKnapsack.largeNums, 20, x); 
+             }
+             
+             myFileWriter.write("The Brute force solution: \n");
+             bruteKnapsack.bestCombination(largeMatrix, 30, myFileWriter);
+             myFileWriter.write("\n");
+             bruteKnapsack.listOfCombinations = new Vector<int[]>();
+
+            for(int i = 0; i < 20; i++){
+                tempWeight[i] = largeMatrix[i][0];
+                tempValue[i] = largeMatrix[i][1];
+            }
+
+            //randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+            randomKnapsack.evaluateRandomPopulations_output(tempWeight, tempValue, 30,myFileWriter);
+            myFileWriter.write("\n");
+
+            myFileWriter.close();
+
+        } catch (Exception e){
+            System.out.println("An error occured when creating output file");
+            e.printStackTrace();
         }
-        
-        randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
 
-        tempWeight = new int[15];
-        tempValue = new int[15];
-
-        for(int i = 0; i < 15; i++){
-            tempWeight[i] = mediumMatrix[i][0];
-            tempValue[i] = mediumMatrix[i][1];
-        }
-
-        randomKnapsack.evaluateRandomPopulations(tempWeight, tempValue, 30);
+        sc.close();
+        System.out.println("Program has finished executing");
 
     }
 }
