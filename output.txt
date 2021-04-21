@@ -1,0 +1,1257 @@
+***** Start of small knapsack problem ***** 
+
+The Brute force solution: 
+Running 1024 combinations for the knapsack problem 
+The best combinaton of items are: 1 1 1 1 1 1 1 0 1 1 
+The total weight of the items: 0
+The total value of the items: 52
+
+
+Statistics for Math.random() generation 1 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 2 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 3 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 4 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 5 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 6 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 7 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 8 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 9 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 10 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 11 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 12 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 13 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 14 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 15 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 16 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 17 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 18 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 19 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 20 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 21 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 22 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 23 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 24 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 25 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 26 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 27 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 28 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 29 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 30 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 31 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 32 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 33 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 34 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 35 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 36 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 37 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 38 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 39 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 40 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 41 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 42 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 43 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 44 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 45 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 46 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 47 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 48 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 49 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 50 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 51 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 52 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 53 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 54 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 55 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 56 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 57 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 58 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 59 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 60 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 61 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 62 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 63 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 64 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 65 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 66 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 67 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 68 :
+Minimum fitness score: 0, The average fitness score: 26
+Statistics for Math.random() generation 69 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 70 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 71 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 72 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 73 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 74 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 75 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 76 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 77 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 78 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 79 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 80 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 81 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 82 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 83 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 84 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 85 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 86 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 87 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 88 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 89 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 90 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 91 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 92 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 93 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 94 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 95 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 96 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 97 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 98 :
+Minimum fitness score: 0, The average fitness score: 25
+Statistics for Math.random() generation 99 :
+Minimum fitness score: 0, The average fitness score: 24
+Statistics for Math.random() generation 100 :
+Minimum fitness score: 0, The average fitness score: 25
+
+The overall best Math.random() solution
+1 1 1 1 0 1 1 0 1 1 
+The best weight is 27 , the best value is 51
+
+Statistics for blum blum shum generation 1 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 2 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 3 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 4 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 5 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 6 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 7 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 8 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 9 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 10 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 11 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 12 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 13 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 14 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 15 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 16 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 17 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 18 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 19 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 20 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 21 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 22 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 23 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 24 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 25 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 26 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 27 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 28 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 29 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 30 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 31 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 32 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 33 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 34 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 35 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 36 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 37 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 38 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 39 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 40 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 41 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 42 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 43 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 44 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 45 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 46 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 47 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 48 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 49 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 50 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 51 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 52 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 53 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 54 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 55 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 56 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 57 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 58 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 59 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 60 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 61 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 62 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 63 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 64 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 65 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 66 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 67 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 68 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 69 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 70 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 71 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 72 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 73 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 74 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 75 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 76 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 77 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 78 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 79 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 80 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 81 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 82 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 83 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 84 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 85 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 86 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 87 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 88 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 89 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 90 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 91 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 92 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 93 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 94 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 95 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 96 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 97 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 98 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 99 :
+Minimum fitness score: 9, The average fitness score: 17
+Statistics for blum blum shum generation 100 :
+Minimum fitness score: 9, The average fitness score: 17
+
+The overall best Blum Blum Shum solution
+1 1 0 1 1 1 0 1 0 0 
+The best weight is 27 , the best value is 30
+
+***** Start of medium knapsack problem ***** 
+
+The Brute force solution: 
+Running 32768 combinations for the knapsack problem 
+The best combinaton of items are: 1 1 1 0 0 0 1 0 1 1 1 1 1 0 1 
+The total weight of the items: 0
+The total value of the items: 64
+
+
+Statistics for Math.random() generation 1 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 2 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 3 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 4 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 5 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 6 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 7 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 8 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 9 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 10 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 11 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 12 :
+Minimum fitness score: 0, The average fitness score: 16
+Statistics for Math.random() generation 13 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 14 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 15 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 16 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 17 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 18 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 19 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 20 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 21 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 22 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 23 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 24 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 25 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 26 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 27 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 28 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 29 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 30 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 31 :
+Minimum fitness score: 0, The average fitness score: 16
+Statistics for Math.random() generation 32 :
+Minimum fitness score: 0, The average fitness score: 19
+Statistics for Math.random() generation 33 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 34 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 35 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 36 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 37 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 38 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 39 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 40 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 41 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 42 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 43 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 44 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 45 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 46 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 47 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 48 :
+Minimum fitness score: 0, The average fitness score: 19
+Statistics for Math.random() generation 49 :
+Minimum fitness score: 0, The average fitness score: 16
+Statistics for Math.random() generation 50 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 51 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 52 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 53 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 54 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 55 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 56 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 57 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 58 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 59 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 60 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 61 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 62 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 63 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 64 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 65 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 66 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 67 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 68 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 69 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 70 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 71 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 72 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 73 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 74 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 75 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 76 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 77 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 78 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 79 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 80 :
+Minimum fitness score: 0, The average fitness score: 19
+Statistics for Math.random() generation 81 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 82 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 83 :
+Minimum fitness score: 0, The average fitness score: 16
+Statistics for Math.random() generation 84 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 85 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 86 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 87 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 88 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 89 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 90 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 91 :
+Minimum fitness score: 0, The average fitness score: 19
+Statistics for Math.random() generation 92 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 93 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 94 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 95 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 96 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 97 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 98 :
+Minimum fitness score: 0, The average fitness score: 17
+Statistics for Math.random() generation 99 :
+Minimum fitness score: 0, The average fitness score: 18
+Statistics for Math.random() generation 100 :
+Minimum fitness score: 0, The average fitness score: 18
+
+The overall best Math.random() solution
+1 1 1 1 1 1 1 0 0 1 0 0 1 0 1 
+The best weight is 30 , the best value is 59
+
+Statistics for blum blum shum generation 1 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 2 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 3 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 4 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 5 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 6 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 7 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 8 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 9 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 10 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 11 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 12 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 13 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 14 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 15 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 16 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 17 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 18 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 19 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 20 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 21 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 22 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 23 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 24 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 25 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 26 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 27 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 28 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 29 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 30 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 31 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 32 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 33 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 34 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 35 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 36 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 37 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 38 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 39 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 40 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 41 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 42 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 43 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 44 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 45 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 46 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 47 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 48 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 49 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 50 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 51 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 52 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 53 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 54 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 55 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 56 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 57 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 58 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 59 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 60 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 61 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 62 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 63 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 64 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 65 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 66 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 67 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 68 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 69 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 70 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 71 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 72 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 73 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 74 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 75 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 76 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 77 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 78 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 79 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 80 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 81 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 82 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 83 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 84 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 85 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 86 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 87 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 88 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 89 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 90 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 91 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 92 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 93 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 94 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 95 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 96 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 97 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 98 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 99 :
+Minimum fitness score: 0, The average fitness score: 22
+Statistics for blum blum shum generation 100 :
+Minimum fitness score: 0, The average fitness score: 22
+
+The overall best Blum Blum Shum solution
+1 0 1 0 0 0 1 0 1 1 0 0 1 0 1 
+The best weight is 16 , the best value is 46
+
+***** Start of large knapsack problem ***** 
+
+The Brute force solution: 
+Running 1048576 combinations for the knapsack problem 
+The best combinaton of items are: 1 1 1 0 1 0 1 0 1 1 0 0 1 0 1 0 0 1 0 1 
+The total weight of the items: 0
+The total value of the items: 67
+
+
+Statistics for Math.random() generation 1 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 2 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 3 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 4 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 5 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 6 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 7 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 8 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 9 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 10 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 11 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 12 :
+Minimum fitness score: 0, The average fitness score: 2
+Statistics for Math.random() generation 13 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 14 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 15 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 16 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 17 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 18 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 19 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 20 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 21 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 22 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 23 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 24 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 25 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 26 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 27 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 28 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 29 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 30 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 31 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 32 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 33 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 34 :
+Minimum fitness score: 0, The average fitness score: 5
+Statistics for Math.random() generation 35 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 36 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 37 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 38 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 39 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 40 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 41 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 42 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 43 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 44 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 45 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 46 :
+Minimum fitness score: 0, The average fitness score: 5
+Statistics for Math.random() generation 47 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 48 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 49 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 50 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 51 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 52 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 53 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 54 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 55 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 56 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 57 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 58 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 59 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 60 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 61 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 62 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 63 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 64 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 65 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 66 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 67 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 68 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 69 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 70 :
+Minimum fitness score: 0, The average fitness score: 5
+Statistics for Math.random() generation 71 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 72 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 73 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 74 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 75 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 76 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 77 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 78 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 79 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 80 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 81 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 82 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 83 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 84 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 85 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 86 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 87 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 88 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 89 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 90 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 91 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 92 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 93 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 94 :
+Minimum fitness score: 0, The average fitness score: 3
+Statistics for Math.random() generation 95 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 96 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 97 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 98 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 99 :
+Minimum fitness score: 0, The average fitness score: 4
+Statistics for Math.random() generation 100 :
+Minimum fitness score: 0, The average fitness score: 3
+
+The overall best Math.random() solution
+0 1 1 1 0 0 1 0 0 1 1 0 1 0 1 0 0 0 0 1 
+The best weight is 30 , the best value is 56
+
+Statistics for blum blum shum generation 1 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 2 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 3 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 4 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 5 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 6 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 7 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 8 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 9 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 10 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 11 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 12 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 13 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 14 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 15 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 16 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 17 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 18 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 19 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 20 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 21 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 22 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 23 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 24 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 25 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 26 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 27 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 28 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 29 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 30 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 31 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 32 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 33 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 34 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 35 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 36 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 37 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 38 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 39 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 40 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 41 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 42 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 43 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 44 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 45 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 46 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 47 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 48 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 49 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 50 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 51 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 52 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 53 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 54 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 55 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 56 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 57 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 58 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 59 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 60 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 61 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 62 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 63 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 64 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 65 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 66 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 67 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 68 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 69 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 70 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 71 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 72 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 73 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 74 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 75 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 76 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 77 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 78 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 79 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 80 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 81 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 82 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 83 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 84 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 85 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 86 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 87 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 88 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 89 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 90 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 91 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 92 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 93 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 94 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 95 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 96 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 97 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 98 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 99 :
+Minimum fitness score: 0, The average fitness score: 15
+Statistics for blum blum shum generation 100 :
+Minimum fitness score: 0, The average fitness score: 15
+
+The overall best Blum Blum Shum solution
+0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 
+The best weight is 23 , the best value is 30
+
